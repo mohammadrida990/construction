@@ -16,8 +16,13 @@ const Hero = () => {
               viewport={{ once: false, amount: 0.8 }}
               className="text-white mb-4 font-henny-penny"
             >
-              <p className="text-primary font-bold text-6xl mb-3">Building</p>
-              <p className="capitalize text-5xl ml-20">robust solution</p>
+              <p className="text-primary font-bold text-6xl md:text-9xl mb-3">
+                Building
+              </p>
+
+              <p className="capitalize text-5xl md:text-7xl ml-0 text-end md:w-[800px]">
+                robust solution
+              </p>
             </motion.h1>
 
             <motion.p
