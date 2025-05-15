@@ -6,6 +6,7 @@ import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import ScrollToTop from "@/components/ScrollToTop";
 import Services from "@/components/Services";
 import Stats from "@/components/Stats";
 import Tests from "@/components/Tests";
@@ -62,6 +63,8 @@ export default function Home() {
       <Contact />
 
       <Footer />
+
+      <ScrollToTop />
     </div>
   );
 }

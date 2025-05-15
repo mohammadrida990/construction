@@ -7,7 +7,7 @@ const Logo = () => {
         href="/"
         className="
           bg-gradient-to-r from-cyan-600 to-cyan-200 bg-clip-text text-transparent
-          font-bold text-lg xl:text-3xl italic
+          font-bold text-lg xl:text-3xl italic font-henny-penny  
         "
       >
         CONSTRUCTION

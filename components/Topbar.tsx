@@ -15,7 +15,7 @@ const Topbar = () => {
                 <RiPhoneFill />
               </div>
 
-              <p className="font-medium text-black">+1(125) 454 5646</p>
+              <p className="font-medium text-black">+961 (00) 000 000</p>
             </div>
 
             <div className="flex items-center gap-3">
@@ -29,7 +29,7 @@ const Topbar = () => {
 
           <Socials
             containerStyles="flex items-center gap-8 mx-auto xl:mx-0"
-            iconStyles="text-blacl"
+            iconStyles="text-black"
           />
         </div>
       </div>

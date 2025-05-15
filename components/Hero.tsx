@@ -14,10 +14,10 @@ const Hero = () => {
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0.8 }}
-              className="text-5xl text-white mb-4"
+              className="text-white mb-4 font-henny-penny"
             >
-              <span className="text-primary font-bold text-6xl">Building </span>
-              <span className="capitalize">robust solution</span>
+              <p className="text-primary font-bold text-6xl mb-3">Building</p>
+              <p className="capitalize text-5xl ml-20">robust solution</p>
             </motion.h1>
 
             <motion.p
