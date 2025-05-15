@@ -67,7 +67,7 @@ const NavMobile = () => {
                   to={item.path}
                   smooth
                   isDynamic
-                  duration={500}
+                  duration={1000}
                   hashSpy
                   className="cursor-pointer"
                   activeClass="text-primary"

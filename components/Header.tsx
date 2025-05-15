@@ -50,7 +50,7 @@ const Header = () => {
                     to={link.path}
                     smooth
                     spy
-                    duration={500}
+                    duration={1000}
                     className="cursor-pointer"
                     activeClass="text-primary"
                   >
@@ -60,7 +60,7 @@ const Header = () => {
               ))}
             </ul>
 
-            <ScrollLink to="contact" smooth spy duration={1000}>
+            <ScrollLink to="contact" smooth spy duration={2000}>
               <Button text="got a quote" />
             </ScrollLink>
           </nav>
