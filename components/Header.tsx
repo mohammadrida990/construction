@@ -60,7 +60,9 @@ const Header = () => {
               ))}
             </ul>
 
-            <Button text="got a quote" />
+            <ScrollLink to="contact" smooth spy duration={1000}>
+              <Button text="got a quote" />
+            </ScrollLink>
           </nav>
 
           <div className="xl:hidden ">

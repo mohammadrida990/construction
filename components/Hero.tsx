@@ -2,6 +2,7 @@ import React from "react";
 import Button from "./Button";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/lib/variants";
+import { Link as ScrollLink } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -44,7 +45,9 @@ const Hero = () => {
               whileInView="show"
               viewport={{ once: false, amount: 0.8 }}
             >
-              <Button text="see our work" />
+              <ScrollLink to="projects" smooth spy duration={1000}>
+                <Button text="see our work" />
+              </ScrollLink>
             </motion.div>
           </div>
         </div>

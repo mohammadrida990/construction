@@ -5,6 +5,7 @@ import Slider from "./Slider";
 import PreTitle from "./PreTitle";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/lib/variants";
+import { Link as ScrollLink } from "react-scroll";
 
 const Tests = () => {
   return (
@@ -31,7 +32,9 @@ const Tests = () => {
               rem.
             </p>
 
-            <Button text="work with us" />
+            <ScrollLink to="contact" smooth spy duration={1000}>
+              <Button text="work with us" />
+            </ScrollLink>
           </motion.div>
 
           <motion.div

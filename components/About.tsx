@@ -4,6 +4,7 @@ import Image from "next/image";
 import Button from "./Button";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/lib/variants";
+import { Link as ScrollLink } from "react-scroll";
 
 const About = () => {
   return (
@@ -44,7 +45,9 @@ const About = () => {
                 <p>Company</p>
               </div>
 
-              <Button text="contact us" />
+              <ScrollLink to="contact" smooth spy duration={1000}>
+                <Button text="contact us" />
+              </ScrollLink>
             </motion.div>
           </div>
 

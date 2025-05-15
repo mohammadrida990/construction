@@ -13,6 +13,7 @@ import PreTitle from "./PreTitle";
 import Button from "./Button";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/lib/variants";
+import { Link as ScrollLink } from "react-scroll";
 
 const data = [
   {
@@ -202,7 +203,9 @@ const Services = () => {
                           ))}
                         </ul>
 
-                        <Button text="read more" />
+                        <ScrollLink to="projects" smooth spy duration={1000}>
+                          <Button text="read more" />
+                        </ScrollLink>
                       </div>
                     </div>
                   </motion.div>
