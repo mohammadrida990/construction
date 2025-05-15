@@ -17,18 +17,22 @@ const ScrollToTop = () => {
   }, []);
 
   return (
-    isVisible && (
-      <ScrollLink to="home" smooth spy duration={2000}>
-        <button
-          className="
-        fixed bottom-6 right-6 z-50 shadow-md  bg-background hover:bg-background/80 
-        transition  w-10 h-10 md:w-13 md:h-13 flex items-center justify-center cursor-pointer
-        "
-        >
-          <FaArrowUp className="text-2xl md:text-4xl text-black" />
+    <div
+      className={`
+        fixed bottom-6 right-6 z-50 transition-opacity duration-700 ease-in-out
+        ${
+          isVisible
+            ? "opacity-100 pointer-events-auto"
+            : "opacity-0 pointer-events-none"
+        }
+      `}
+    >
+      <ScrollLink to="home" smooth spy duration={3000}>
+        <button className="w-10 h-10 md:w-12 md:h-12 bg-background hover:bg-background/70 shadow-md flex items-center justify-center">
+          <FaArrowUp className="text-2xl md:text-3xl text-black" />
         </button>
       </ScrollLink>
-    )
+    </div>
   );
 };
 
