@@ -28,7 +28,7 @@ const ScrollToTop = () => {
       `}
     >
       <ScrollLink to="home" smooth spy duration={3000}>
-        <button className="w-10 h-10 md:w-12 md:h-12 bg-background hover:bg-background/70 shadow-md flex items-center justify-center">
+        <button className="w-10 h-10 md:w-12 md:h-12 bg-background hover:bg-background/70 shadow-md flex items-center justify-center cursor-pointer">
           <FaArrowUp className="text-2xl md:text-3xl text-black" />
         </button>
       </ScrollLink>
